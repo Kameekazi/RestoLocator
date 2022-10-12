@@ -18,7 +18,7 @@ function Dashboard () {
   // const mapRef = useRef()
   const [meals, setMeals] = useState()
   const [error, setError] = useState()
-  const googleAPIKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY // modify .env.local file and set MAPS API key
+  const googleAPIKey = "AIzaSyAzHzbBowivAkJrnT-YllJXmlR4m_gq4qE" // modify .env.local file and set MAPS API key
   const center = { lat: 10.316217799457187, lng: 123.88462951395323 }
 
   const mealsAPI = "https://www.themealdb.com/api/json/v1/1/filter.php?a=British"
